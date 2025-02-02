@@ -13,3 +13,4 @@ public class ABJavaEdition implements ModInitializer {
 	public void onInitialize() {
 	}
 }
+//Test comment for Github syncing.
