@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ab-java-edition",
+	"version": "${version}",
+	"name": "AB Java Edition",
+	"description": "A Modern Angry Birds mod for Minecraft Java Edition",
+	"authors": [
+		"Zphen"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ab-java-edition/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.zphen.abjavaedition.ABJavaEdition"
+		],
+		"fabric-datagen": [
+			"net.zphen.abjavaedition.ABJavaEditionDataGenerator"
+		],
+		"client": [
+			"net.zphen.abjavaedition.ABJavaEditionClient"
+		]
+	},
+	"mixins": [
+		"ab-java-edition.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
