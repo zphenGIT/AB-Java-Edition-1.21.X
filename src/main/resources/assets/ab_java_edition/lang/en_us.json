@@ -1,5 +1,8 @@
 {
   "item.ab_java_edition.avian_egg": "Avian Egg",
   "item.ab_java_edition.golden_egg": "Golden Egg",
-  "item.ab_java_edition.strawberry": "Strawberry"
+  "item.ab_java_edition.strawberry": "Strawberry",
+
+  "block.ab_java_edition.slingshot_planks": "Slingshot Planks",
+  "block.ab_java_edition.piggy_tnt": "Piggy TNT"
 }
