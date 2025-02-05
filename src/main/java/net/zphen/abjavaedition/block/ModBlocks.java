@@ -15,12 +15,24 @@ import net.zphen.abjavaedition.ABJavaEdition;
 public class ModBlocks {
 
     public static final Block SLINGSHOT_PLANKS = registerBlock("slingshot_planks",
-            new Block(AbstractBlock.Settings.create().strength(1f)
-                    .requiresTool().sounds(BlockSoundGroup.WOOD)));
+            new Block(AbstractBlock.Settings.create().strength(2f)
+                    .sounds(BlockSoundGroup.WOOD)));
+
+    public static final Block SLINGSHOT_LOG = registerBlock("slingshot_log",
+            new Block(AbstractBlock.Settings.create().strength(2f)
+                    .sounds(BlockSoundGroup.WOOD)));
 
     public static final Block PIGGY_TNT = registerBlock("piggy_tnt",
-                new Block(AbstractBlock.Settings.create().strength(1f)
-                        .requiresTool().sounds(BlockSoundGroup.WOOD)));
+                new Block(AbstractBlock.Settings.create().strength(2f)
+                        .sounds(BlockSoundGroup.WOOD)));
+
+    public static final Block POLISHED_STONE = registerBlock("polished_stone",
+                new Block(AbstractBlock.Settings.create().strength(1.5f)
+                        .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block REINFORCED_GLASS = registerBlock("reinforced_glass",
+                new Block(AbstractBlock.Settings.create().strength(0.3f)
+                        .sounds(BlockSoundGroup.GLASS)));
 
 
 
@@ -40,7 +52,10 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.SLINGSHOT_PLANKS);
+            entries.add(ModBlocks.SLINGSHOT_LOG);
             entries.add(ModBlocks.PIGGY_TNT);
+            entries.add(ModBlocks.POLISHED_STONE);
+            entries.add(ModBlocks.REINFORCED_GLASS);
         });
     }
 }

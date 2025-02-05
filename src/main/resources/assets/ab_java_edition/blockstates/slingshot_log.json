@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ab_java_edition:block/slingshot_log"
+    }
+  }
+}

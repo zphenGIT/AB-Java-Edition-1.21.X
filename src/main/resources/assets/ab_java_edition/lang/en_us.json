@@ -4,5 +4,11 @@
   "item.ab_java_edition.strawberry": "Strawberry",
 
   "block.ab_java_edition.slingshot_planks": "Slingshot Planks",
-  "block.ab_java_edition.piggy_tnt": "Piggy TNT"
+  "block.ab_java_edition.slingshot_log": "Slingshot Log",
+  "block.ab_java_edition.piggy_tnt": "Piggy TNT",
+  "block.ab_java_edition.polished_stone": "Polished Stone",
+  "block.ab_java_edition.reinforced_glass": "Reinforced Glass",
+
+  "itemgroup.ab_java_edition.ab_java_edition_items": "AB Java Edition Items",
+  "itemgroup.ab_java_edition.ab_java_edition_blocks": "AB Java Edition Blocks"
 }
