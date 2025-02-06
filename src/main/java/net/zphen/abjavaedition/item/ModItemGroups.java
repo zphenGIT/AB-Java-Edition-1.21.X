@@ -33,6 +33,15 @@ public class ModItemGroups {
                             entries.add(ModBlocks.PIGGY_TNT);
                             entries.add(ModBlocks.REINFORCED_GLASS);
                             entries.add(ModBlocks.POLISHED_STONE);
+
+                            entries.add(ModBlocks.SLINGSHOT_STAIRS);
+                            entries.add(ModBlocks.SLINGSHOT_SLAB);
+
+                            entries.add(ModBlocks.SLINGSHOT_BUTTON);
+                            entries.add(ModBlocks.SLINGSHOT_PRESSURE_PLATE);
+
+                            entries.add(ModBlocks.SLINGSHOT_WALL);
+                            entries.add(ModBlocks.SLINGSHOT_FENCE);
                         })
 
                         .build());

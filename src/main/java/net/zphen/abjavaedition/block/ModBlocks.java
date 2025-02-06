@@ -1,8 +1,7 @@
 package net.zphen.abjavaedition.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -16,7 +15,7 @@ public class ModBlocks {
 
     public static final Block SLINGSHOT_PLANKS = registerBlock("slingshot_planks",
             new Block(AbstractBlock.Settings.create().strength(2f)
-                    .sounds(BlockSoundGroup.WOOD)));
+                    .sounds(BlockSoundGroup.BAMBOO_WOOD)));
 
     public static final Block SLINGSHOT_LOG = registerBlock("slingshot_log",
             new Block(AbstractBlock.Settings.create().strength(2f)
@@ -24,7 +23,7 @@ public class ModBlocks {
 
     public static final Block PIGGY_TNT = registerBlock("piggy_tnt",
                 new Block(AbstractBlock.Settings.create().strength(2f)
-                        .sounds(BlockSoundGroup.WOOD)));
+                        .sounds(BlockSoundGroup.BAMBOO_WOOD)));
 
     public static final Block POLISHED_STONE = registerBlock("polished_stone",
                 new Block(AbstractBlock.Settings.create().strength(1.5f)
@@ -33,6 +32,24 @@ public class ModBlocks {
     public static final Block REINFORCED_GLASS = registerBlock("reinforced_glass",
                 new Block(AbstractBlock.Settings.create().strength(0.3f)
                         .sounds(BlockSoundGroup.GLASS)));
+
+    public static final Block SLINGSHOT_STAIRS = registerBlock("slingshot_stairs",
+            new StairsBlock(ModBlocks.SLINGSHOT_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.BAMBOO_WOOD)));
+    public static final Block SLINGSHOT_SLAB = registerBlock("slingshot_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.BAMBOO_WOOD)));
+
+    public static final Block SLINGSHOT_BUTTON = registerBlock("slingshot_button",
+            new ButtonBlock(BlockSetType.BAMBOO, 2,
+                    AbstractBlock.Settings.create().strength(2f).noCollision().sounds(BlockSoundGroup.BAMBOO_WOOD)));
+    public static final Block SLINGSHOT_PRESSURE_PLATE = registerBlock("slingshot_pressure_plate",
+            new PressurePlateBlock(BlockSetType.BAMBOO, AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.BAMBOO_WOOD)));
+
+    public static final Block SLINGSHOT_WALL = registerBlock("slingshot_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.BAMBOO_WOOD)));
+    public static final Block SLINGSHOT_FENCE = registerBlock("slingshot_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.BAMBOO_WOOD)));
+
 
 
 

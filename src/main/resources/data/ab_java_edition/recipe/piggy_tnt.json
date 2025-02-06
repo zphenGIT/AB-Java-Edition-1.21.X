@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "minecraft:gunpowder"
+    },
+    "#": {
+      "item": "ab_java_edition:slingshot_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "#g#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ab_java_edition:piggy_tnt"
+  }
+}

@@ -19,4 +19,3 @@ public class ABJavaEdition implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 	}
 }
-//Test comment for Github syncing.
