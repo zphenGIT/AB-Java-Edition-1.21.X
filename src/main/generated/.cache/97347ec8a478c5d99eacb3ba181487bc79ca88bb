@@ -1,0 +1,7 @@
+// 1.21.1	2025-02-06T22:46:53.9165433	AB Java Edition/Block Loot Tables
+4d20c6f2fec5a5a28c577113977af3b085b1671e data\ab_java_edition\loot_table\blocks\slingshot_wall.json
+28f517b60be0e8ab5e068fa501c7e37c1e8346c2 data\ab_java_edition\loot_table\blocks\slingshot_pressure_plate.json
+c59562873390b9d9d50419a2ffcc7dedbd81cbaf data\ab_java_edition\loot_table\blocks\slingshot_button.json
+bbbb6e365b3b3907cb94e027529ae679fbcdf27e data\ab_java_edition\loot_table\blocks\slingshot_slab.json
+7b67f5713cd5a7d89cbdb56bd28d8babc25b97dd data\ab_java_edition\loot_table\blocks\slingshot_fence.json
+42f237e0f63e1f5050c10b2eaeb74bdb2ceb2402 data\ab_java_edition\loot_table\blocks\slingshot_stairs.json

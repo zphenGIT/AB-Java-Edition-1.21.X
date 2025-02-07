@@ -1,0 +1,8 @@
+// 1.21.1	2025-02-06T22:46:53.9175406	AB Java Edition/Tags for minecraft:block
+85f8312fd69eac320d49669c0ca51e049ac17412 data\minecraft\tags\block\wooden_fences.json
+b1def457c75ce29455525104870fd2cce541b02a data\minecraft\tags\block\stairs.json
+925ca103b04cb9f02ef51f820349a30414c6133a data\minecraft\tags\block\walls.json
+2dce9388c193d6b5880ad57ca30f17fab5c93096 data\minecraft\tags\block\slabs.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\mineable\axe.json
+346e862afa8e9c53dba13f8541aad49104c513d6 data\minecraft\tags\block\buttons.json
+527030e4dd0ebd3c62f6145f8978cb2e473051c9 data\minecraft\tags\block\pressure_plates.json

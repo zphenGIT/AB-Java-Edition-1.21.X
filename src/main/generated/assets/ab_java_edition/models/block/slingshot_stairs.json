@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "ab_java_edition:block/slingshot_planks",
+    "side": "ab_java_edition:block/slingshot_planks",
+    "top": "ab_java_edition:block/slingshot_planks"
+  }
+}

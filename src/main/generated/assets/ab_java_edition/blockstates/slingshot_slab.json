@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ab_java_edition:block/slingshot_slab"
+    },
+    "type=double": {
+      "model": "ab_java_edition:block/slingshot_planks"
+    },
+    "type=top": {
+      "model": "ab_java_edition:block/slingshot_slab_top"
+    }
+  }
+}
