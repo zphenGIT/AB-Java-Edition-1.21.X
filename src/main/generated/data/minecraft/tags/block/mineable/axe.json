@@ -1,3 +1,13 @@
 {
-  "values": []
+  "replace": false,
+  "values": [
+    "ab_java_edition:slingshot_planks",
+    "ab_java_edition:slingshot_stairs",
+    "ab_java_edition:slingshot_wall",
+    "ab_java_edition:slingshot_slab",
+    "ab_java_edition:slingshot_pressure_plate",
+    "ab_java_edition:slingshot_button",
+    "ab_java_edition:slingshot_log",
+    "ab_java_edition:piggy_tnt"
+  ]
 }

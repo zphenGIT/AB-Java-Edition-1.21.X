@@ -23,5 +23,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     addDrop(ModBlocks.SLINGSHOT_WALL);
     addDrop(ModBlocks.SLINGSHOT_FENCE);
 
+    addDrop(ModBlocks.POLISHED_STONE_WALL);
+    addDrop(ModBlocks.POLISHED_STONE_STAIR);
+    addDrop(ModBlocks.POLISHED_STONE_SLAB);
+
     }
 }

@@ -16,15 +16,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE);
-
         getOrCreateTagBuilder(BlockTags.STAIRS).add(ModBlocks.SLINGSHOT_STAIRS);
         getOrCreateTagBuilder(BlockTags.SLABS).add(ModBlocks.SLINGSHOT_SLAB);
-
         getOrCreateTagBuilder(BlockTags.BUTTONS).add(ModBlocks.SLINGSHOT_BUTTON);
         getOrCreateTagBuilder(BlockTags.PRESSURE_PLATES).add(ModBlocks.SLINGSHOT_PRESSURE_PLATE);
-
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.SLINGSHOT_WALL);
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(ModBlocks.SLINGSHOT_FENCE);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_STONE_WALL);
+        getOrCreateTagBuilder(BlockTags.STAIRS).add(ModBlocks.POLISHED_STONE_STAIR);
+        getOrCreateTagBuilder(BlockTags.SLABS).add(ModBlocks.POLISHED_STONE_SLAB);
 
 
 

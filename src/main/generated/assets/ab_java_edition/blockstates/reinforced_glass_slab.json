@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ab_java_edition:block/reinforced_glass_slab"
+    },
+    "type=double": {
+      "model": "ab_java_edition:block/reinforced_glass"
+    },
+    "type=top": {
+      "model": "ab_java_edition:block/reinforced_glass_slab_top"
+    }
+  }
+}

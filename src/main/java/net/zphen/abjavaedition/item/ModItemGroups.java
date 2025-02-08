@@ -28,20 +28,26 @@ public class ModItemGroups {
                 FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PIGGY_TNT))
                         .displayName(Text.translatable("itemgroup.ab_java_edition.ab_java_edition_blocks"))
                         .entries((displayContext, entries) -> {
-                            entries.add(ModBlocks.SLINGSHOT_PLANKS);
-                            entries.add(ModBlocks.SLINGSHOT_LOG);
-                            entries.add(ModBlocks.PIGGY_TNT);
-                            entries.add(ModBlocks.REINFORCED_GLASS);
-                            entries.add(ModBlocks.POLISHED_STONE);
 
+                            entries.add(ModBlocks.SLINGSHOT_LOG);
+;                           entries.add(ModBlocks.SLINGSHOT_PLANKS);
                             entries.add(ModBlocks.SLINGSHOT_STAIRS);
                             entries.add(ModBlocks.SLINGSHOT_SLAB);
-
                             entries.add(ModBlocks.SLINGSHOT_BUTTON);
                             entries.add(ModBlocks.SLINGSHOT_PRESSURE_PLATE);
-
                             entries.add(ModBlocks.SLINGSHOT_WALL);
                             entries.add(ModBlocks.SLINGSHOT_FENCE);
+                            entries.add(ModBlocks.PIGGY_TNT);
+
+                            entries.add(ModBlocks.POLISHED_STONE);
+                            entries.add(ModBlocks.POLISHED_STONE_WALL);
+                            entries.add(ModBlocks.POLISHED_STONE_STAIR);
+                            entries.add(ModBlocks.POLISHED_STONE_SLAB);
+
+                            entries.add(ModBlocks.REINFORCED_GLASS);
+                            entries.add(ModBlocks.REINFORCED_GLASS_WALL);
+                            entries.add(ModBlocks.REINFORCED_GLASS_STAIRS);
+                            entries.add(ModBlocks.REINFORCED_GLASS_SLAB);
                         })
 
                         .build());

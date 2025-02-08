@@ -1,8 +1,9 @@
-// 1.21.1	2025-02-06T22:46:53.9175406	AB Java Edition/Tags for minecraft:block
+// 1.21.1	2025-02-07T20:21:04.9124837	AB Java Edition/Tags for minecraft:block
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\mineable\pickaxe.json
 85f8312fd69eac320d49669c0ca51e049ac17412 data\minecraft\tags\block\wooden_fences.json
-b1def457c75ce29455525104870fd2cce541b02a data\minecraft\tags\block\stairs.json
-925ca103b04cb9f02ef51f820349a30414c6133a data\minecraft\tags\block\walls.json
-2dce9388c193d6b5880ad57ca30f17fab5c93096 data\minecraft\tags\block\slabs.json
+c1d0f466c8d593748c4db233c5936d6f0db198c2 data\minecraft\tags\block\stairs.json
+52370a9a354c19766f6ead8721b31cb87df74548 data\minecraft\tags\block\walls.json
+80b8b83562f9895490abd234d2dbafa540913745 data\minecraft\tags\block\slabs.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\mineable\axe.json
 346e862afa8e9c53dba13f8541aad49104c513d6 data\minecraft\tags\block\buttons.json
 527030e4dd0ebd3c62f6145f8978cb2e473051c9 data\minecraft\tags\block\pressure_plates.json

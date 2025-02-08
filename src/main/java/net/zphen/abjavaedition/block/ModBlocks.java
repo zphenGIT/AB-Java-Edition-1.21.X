@@ -50,6 +50,23 @@ public class ModBlocks {
     public static final Block SLINGSHOT_FENCE = registerBlock("slingshot_fence",
             new FenceBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.BAMBOO_WOOD)));
 
+    public static final Block POLISHED_STONE_WALL = registerBlock("polished_stone_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.STONE)));
+    public static final Block POLISHED_STONE_STAIR = registerBlock("polished_stone_stairs",
+            new StairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.STONE)));
+    public static final Block POLISHED_STONE_SLAB = registerBlock("polished_stone_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block REINFORCED_GLASS_WALL = registerBlock("reinforced_glass_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(0.3f)
+                    .sounds(BlockSoundGroup.GLASS)));
+    public static final Block REINFORCED_GLASS_STAIRS = registerBlock("reinforced_glass_stairs",
+            new StairsBlock(ModBlocks.REINFORCED_GLASS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(0.3f).sounds(BlockSoundGroup.GLASS)));
+    public static final Block REINFORCED_GLASS_SLAB = registerBlock("reinforced_glass_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(0.3f)
+                    .sounds(BlockSoundGroup.GLASS)));
 
 
 
@@ -68,11 +85,7 @@ public class ModBlocks {
         ABJavaEdition.LOGGER.info("Registering Mod Blocks for " + ABJavaEdition.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.SLINGSHOT_PLANKS);
-            entries.add(ModBlocks.SLINGSHOT_LOG);
-            entries.add(ModBlocks.PIGGY_TNT);
-            entries.add(ModBlocks.POLISHED_STONE);
-            entries.add(ModBlocks.REINFORCED_GLASS);
+
         });
     }
 }

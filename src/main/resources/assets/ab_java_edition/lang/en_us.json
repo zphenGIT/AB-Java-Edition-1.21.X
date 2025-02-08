@@ -11,12 +11,18 @@
 
   "block.ab_java_edition.slingshot_stairs": "Slingshot Stairs",
   "block.ab_java_edition.slingshot_slab": "Slingshot Slab",
-
   "block.ab_java_edition.slingshot_button": "Slingshot Button",
   "block.ab_java_edition.slingshot_pressure_plate": "Slingshot Pressure Plate",
-
   "block.ab_java_edition.slingshot_wall": "Slingshot Wall",
   "block.ab_java_edition.slingshot_fence": "Slingshot Fence",
+
+  "block.ab_java_edition.polished_stone_wall": "Polished Stone Wall",
+  "block.ab_java_edition.polished_stone_stairs": "Polished Stone Stair",
+  "block.ab_java_edition.polished_stone_slab": "Polished Stone Slab",
+
+  "block.ab_java_edition.reinforced_glass_wall": "Reinforced Glass Wall",
+  "block.ab_java_edition.reinforced_glass_stairs": "Reinforced Glass Stairs",
+  "block.ab_java_edition.reinforced_glass_slab": "Reinforced Glass Slab",
 
   "itemgroup.ab_java_edition.ab_java_edition_items": "AB Java Edition Items",
   "itemgroup.ab_java_edition.ab_java_edition_blocks": "AB Java Edition Blocks"

@@ -25,6 +25,17 @@ public class ModModelProvider extends FabricModelProvider {
         slingshotPlankPool.wall(ModBlocks.SLINGSHOT_WALL);
         slingshotPlankPool.fence(ModBlocks.SLINGSHOT_FENCE);
 
+        BlockStateModelGenerator.BlockTexturePool polishedStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_STONE);
+
+        polishedStonePool.wall(ModBlocks.POLISHED_STONE_WALL);
+        polishedStonePool.stairs(ModBlocks.POLISHED_STONE_STAIR);
+        polishedStonePool.slab(ModBlocks.POLISHED_STONE_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool reinforcedGlassPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.REINFORCED_GLASS);
+
+        reinforcedGlassPool.wall(ModBlocks.REINFORCED_GLASS_WALL);
+        reinforcedGlassPool.slab(ModBlocks.REINFORCED_GLASS_SLAB);
+        reinforcedGlassPool.stairs(ModBlocks.REINFORCED_GLASS_STAIRS);
     }
 
     @Override

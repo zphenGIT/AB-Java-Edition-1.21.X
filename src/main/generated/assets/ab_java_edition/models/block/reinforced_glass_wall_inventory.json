@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "ab_java_edition:block/reinforced_glass"
+  }
+}

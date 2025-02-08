@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "ab_java_edition:block/reinforced_glass"
+  }
+}
