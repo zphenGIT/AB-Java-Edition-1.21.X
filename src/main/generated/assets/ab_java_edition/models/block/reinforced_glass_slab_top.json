@@ -2,7 +2,7 @@
   "parent": "minecraft:block/slab_top",
   "textures": {
     "bottom": "ab_java_edition:block/reinforced_glass",
-    "side": "ab_java_edition:block/reinforced_glass",
+    "side": "ab_java_edition:block/reinforced_glass_slab",
     "top": "ab_java_edition:block/reinforced_glass"
   }
 }

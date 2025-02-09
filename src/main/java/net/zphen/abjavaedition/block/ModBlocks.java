@@ -59,8 +59,7 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.STONE)));
 
     public static final Block REINFORCED_GLASS_WALL = registerBlock("reinforced_glass_wall",
-            new WallBlock(AbstractBlock.Settings.create().strength(0.3f)
-                    .sounds(BlockSoundGroup.GLASS)));
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.GLASS)));
     public static final Block REINFORCED_GLASS_STAIRS = registerBlock("reinforced_glass_stairs",
             new StairsBlock(ModBlocks.REINFORCED_GLASS.getDefaultState(),
                     AbstractBlock.Settings.create().strength(0.3f).sounds(BlockSoundGroup.GLASS)));

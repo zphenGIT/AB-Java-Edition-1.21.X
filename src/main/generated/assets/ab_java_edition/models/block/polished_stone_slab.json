@@ -2,7 +2,7 @@
   "parent": "minecraft:block/slab",
   "textures": {
     "bottom": "ab_java_edition:block/polished_stone",
-    "side": "ab_java_edition:block/polished_stone",
+    "side": "ab_java_edition:block/polished_stone_slab",
     "top": "ab_java_edition:block/polished_stone"
   }
 }
