@@ -19,6 +19,7 @@ public class ModItemGroups {
                             entries.add(ModItems.GOLDEN_EGG);
                             entries.add(ModItems.AVIAN_EGG);
                             entries.add(ModItems.STRAWBERRY);
+                            entries.add(ModItems.DONUT);
                         })
 
                     .build());

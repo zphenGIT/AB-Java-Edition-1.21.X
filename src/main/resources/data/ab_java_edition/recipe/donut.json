@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "w": {
+      "item": "minecraft:wheat"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "m": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "pattern": [
+    "   ",
+    " ms",
+    " sw"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ab_java_edition:donut"
+  }
+}
