@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "minecraft:string"
+    },
+    "k": {
+      "item": "ab_java_edition:stick"
+    }
+  },
+  "pattern": [
+    "ksk",
+    " k ",
+    " k "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ab_java_edition:slingshot"
+  }
+}
