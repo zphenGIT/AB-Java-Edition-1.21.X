@@ -12,6 +12,8 @@ public class ABJavaEdition implements ModInitializer {
 	public static final String MOD_ID = "ab_java_edition";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+	//Comment to new Commit on separate device.
+
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();

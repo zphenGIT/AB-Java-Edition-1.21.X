@@ -10,16 +10,16 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.zphen.abjavaedition.ABJavaEdition;
 
+import javax.tools.Tool;
+
 public class ModItems {
-    public static final Item AVIAN_EGG = registerItem("avian_egg", new Item(new Item.Settings().maxCount(16)));
-    public static final Item GOLDEN_EGG = registerItem("golden_egg", new Item(new Item.Settings().maxCount(16)));
+    public static final Item AVIAN_EGG = registerItem("avian_egg", new Item(new Item.Settings()));
+    public static final Item GOLDEN_EGG = registerItem("golden_egg", new Item(new Item.Settings()));
     public static final Item DONUT = registerItem("donut", new Item(new Item.Settings().food(ModFoodComponents.DONUT)));
     public static final Item STRAWBERRY = registerItem("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
-
-    public static final Item SLINGSHOT = registerItem("slingshot", new Item(new Item.Settings().maxCount(1)));
-    public static final Item FORK = registerItem("fork", new Item(new Item.Settings()
-            .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 1, -2.2f)).maxCount(1)));
-
+    public static final Item FORK = registerItem("fork",
+            new SwordItem(ToolMaterials.IRON, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 1, -1.0f))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ABJavaEdition.MOD_ID, name), item);
@@ -33,7 +33,7 @@ public class ModItems {
             entries.add(GOLDEN_EGG);
             entries.add(DONUT);
             entries.add(STRAWBERRY);
-            entries.add(SLINGSHOT);
+            entries.add(FORK);
         });
     }
 }

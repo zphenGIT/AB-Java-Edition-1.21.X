@@ -20,7 +20,6 @@ public class ModItemGroups {
                             entries.add(ModItems.AVIAN_EGG);
                             entries.add(ModItems.STRAWBERRY);
                             entries.add(ModItems.DONUT);
-                            entries.add(ModItems.SLINGSHOT);
                             entries.add(ModItems.FORK);
                         })
 
