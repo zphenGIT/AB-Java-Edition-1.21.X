@@ -17,6 +17,7 @@ public class ModItems {
     public static final Item GOLDEN_EGG = registerItem("golden_egg", new Item(new Item.Settings()));
     public static final Item DONUT = registerItem("donut", new Item(new Item.Settings().food(ModFoodComponents.DONUT)));
     public static final Item STRAWBERRY = registerItem("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
+    public static final Item SLINGSHOT = registerItem("slingshot", new Item(new Item.Settings().maxCount(1)));
     public static final Item FORK = registerItem("fork",
             new SwordItem(ToolMaterials.IRON, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 1, -1.0f))));
@@ -34,6 +35,7 @@ public class ModItems {
             entries.add(DONUT);
             entries.add(STRAWBERRY);
             entries.add(FORK);
+            entries.add(SLINGSHOT);
         });
     }
 }

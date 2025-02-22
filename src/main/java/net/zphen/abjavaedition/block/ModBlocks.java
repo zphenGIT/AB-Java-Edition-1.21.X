@@ -18,8 +18,14 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.BAMBOO_WOOD)));
 
     public static final Block SLINGSHOT_LOG = registerBlock("slingshot_log",
-            new Block(AbstractBlock.Settings.create().strength(2f)
-                    .sounds(BlockSoundGroup.WOOD)));
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+
+    public static final Block RUBBER_BLOCK = registerBlock("rubber_block",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).sounds(BlockSoundGroup.NETHER_STEM)));
+    public static final Block WHITE_RUBBER_BLOCK = registerBlock("white_rubber_block",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).sounds(BlockSoundGroup.NETHER_STEM)));
+    public static final Block RED_RUBBER_BLOCK = registerBlock("red_rubber_block",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).sounds(BlockSoundGroup.NETHER_STEM)));
 
     public static final Block PIGGY_TNT = registerBlock("piggy_tnt",
                 new Block(AbstractBlock.Settings.create().strength(2f)

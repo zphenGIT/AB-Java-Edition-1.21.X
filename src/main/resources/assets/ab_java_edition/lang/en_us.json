@@ -4,6 +4,7 @@
   "item.ab_java_edition.strawberry": "Strawberry",
   "item.ab_java_edition.donut": "Donut",
   "item.ab_java_edition.fork": "Fork",
+  "item.ab_java_edition.slingshot": "Slingshot",
 
   "painting.ab_java_edition.core_memory.title": "Core Memory",
   "painting.ab_java_edition.core_memory.author": "Zphen",
@@ -13,6 +14,9 @@
   "block.ab_java_edition.piggy_tnt": "Piggy TNT",
   "block.ab_java_edition.polished_stone": "Polished Stone",
   "block.ab_java_edition.reinforced_glass": "Reinforced Glass",
+  "block.ab_java_edition.rubber_block": "Rubber Block",
+  "block.ab_java_edition.white_rubber_block": "White Rubber Block",
+  "block.ab_java_edition.red_rubber_block": "Red Rubber Block",
 
   "block.ab_java_edition.slingshot_stairs": "Slingshot Stairs",
   "block.ab_java_edition.slingshot_slab": "Slingshot Slab",

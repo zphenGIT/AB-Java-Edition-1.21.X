@@ -21,6 +21,7 @@ public class ModItemGroups {
                             entries.add(ModItems.STRAWBERRY);
                             entries.add(ModItems.DONUT);
                             entries.add(ModItems.FORK);
+                            entries.add(ModItems.SLINGSHOT);
                         })
 
                     .build());
@@ -40,6 +41,10 @@ public class ModItemGroups {
                             entries.add(ModBlocks.SLINGSHOT_WALL);
                             entries.add(ModBlocks.SLINGSHOT_FENCE);
                             entries.add(ModBlocks.PIGGY_TNT);
+
+                            entries.add(ModBlocks.RUBBER_BLOCK);
+                            entries.add(ModBlocks.WHITE_RUBBER_BLOCK);
+                            entries.add(ModBlocks.RED_RUBBER_BLOCK);
 
                             entries.add(ModBlocks.POLISHED_STONE);
                             entries.add(ModBlocks.POLISHED_STONE_WALL);
