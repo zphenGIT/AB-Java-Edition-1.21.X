@@ -6,6 +6,8 @@
   "item.ab_java_edition.fork": "Fork",
   "item.ab_java_edition.slingshot": "Slingshot",
 
+  "item.ab_java_edition.piggy_spawn_egg": "Piggy Spawn Egg",
+
   "painting.ab_java_edition.core_memory.title": "Core Memory",
   "painting.ab_java_edition.core_memory.author": "Zphen",
 
@@ -34,5 +36,7 @@
   "block.ab_java_edition.reinforced_glass_slab": "Reinforced Glass Slab",
 
   "itemgroup.ab_java_edition.ab_java_edition_items": "AB Java Edition Items",
-  "itemgroup.ab_java_edition.ab_java_edition_blocks": "AB Java Edition Blocks"
+  "itemgroup.ab_java_edition.ab_java_edition_blocks": "AB Java Edition Blocks",
+
+  "entity.ab_java_edition.piggy": "Piggy"
 }

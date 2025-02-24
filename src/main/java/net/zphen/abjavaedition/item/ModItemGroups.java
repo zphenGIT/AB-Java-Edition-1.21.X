@@ -18,6 +18,7 @@ public class ModItemGroups {
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.GOLDEN_EGG);
                             entries.add(ModItems.AVIAN_EGG);
+                            entries.add(ModItems.PIGGY_SPAWN_EGG);
                             entries.add(ModItems.STRAWBERRY);
                             entries.add(ModItems.DONUT);
                             entries.add(ModItems.FORK);

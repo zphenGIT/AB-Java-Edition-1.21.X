@@ -1,14 +1,12 @@
 package net.zphen.abjavaedition.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolMaterials;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.zphen.abjavaedition.ABJavaEdition;
+import net.zphen.abjavaedition.entity.ModEntities;
 
 import javax.tools.Tool;
 
@@ -21,6 +19,9 @@ public class ModItems {
     public static final Item FORK = registerItem("fork",
             new SwordItem(ToolMaterials.IRON, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 1, -1.0f))));
+
+    public static final Item PIGGY_SPAWN_EGG = registerItem("piggy_spawn_egg",
+            new SpawnEggItem(ModEntities.PIGGY, 16777215, 16777215, new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ABJavaEdition.MOD_ID, name), item);
