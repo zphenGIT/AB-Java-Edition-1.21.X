@@ -8,9 +8,8 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 import net.zphen.abjavaedition.ABJavaEdition;
+import net.zphen.abjavaedition.entity.animations.PiggyAnimations;
 import net.zphen.abjavaedition.entity.custom.PiggyEntity;
-
-import javax.swing.text.html.parser.Entity;
 
 public class PiggyModel<T extends PiggyEntity> extends SinglePartEntityModel<T> {
     public static final EntityModelLayer PIGGY = new EntityModelLayer(Identifier.of(ABJavaEdition.MOD_ID, "piggy"), "main");
@@ -41,6 +40,7 @@ public class PiggyModel<T extends PiggyEntity> extends SinglePartEntityModel<T> 
 
         this.animateMovement(PiggyAnimations.HOP, limbSwing, limbSwingAmount, 2f, 2.5f);
         this.updateAnimation(entity.idleAnimationState, PiggyAnimations.IDLE, ageInTicks, 1f);
+        this.updateAnimation(entity.attackAnimationState, PiggyAnimations. /*put your attack animation here */, ageInTicks, 1f);
     }
 
     private void setHeadingAngles(float piggyYaw, float piggyPitch) {
@@ -61,4 +61,3 @@ public class PiggyModel<T extends PiggyEntity> extends SinglePartEntityModel<T> 
         return piggy;
     }
 }
-
