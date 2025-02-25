@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "ab_java_edition:grassy_pumice",
+    "ab_java_edition:pumice",
+    "ab_java_edition:polished_pumice",
     "ab_java_edition:polished_stone",
     "ab_java_edition:polished_stone_wall",
     "ab_java_edition:polished_stone_stairs",

@@ -13,12 +13,6 @@ import net.zphen.abjavaedition.ABJavaEdition;
 
 public class ModBlocks {
 
-    public static final Block SLINGSHOT_PLANKS = registerBlock("slingshot_planks",
-            new Block(AbstractBlock.Settings.create().strength(2f)
-                    .sounds(BlockSoundGroup.BAMBOO_WOOD)));
-
-    public static final Block SLINGSHOT_LOG = registerBlock("slingshot_log",
-            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
 
     public static final Block RUBBER_BLOCK = registerBlock("rubber_block",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).sounds(BlockSoundGroup.NETHER_STEM)));
@@ -27,9 +21,26 @@ public class ModBlocks {
     public static final Block RED_RUBBER_BLOCK = registerBlock("red_rubber_block",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).sounds(BlockSoundGroup.NETHER_STEM)));
 
+    public static final Block SLINGSHOT_PLANKS = registerBlock("slingshot_planks",
+            new Block(AbstractBlock.Settings.create().strength(2f)
+                    .sounds(BlockSoundGroup.BAMBOO_WOOD)));
+
+    public static final Block SLINGSHOT_LOG = registerBlock("slingshot_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+
     public static final Block PIGGY_TNT = registerBlock("piggy_tnt",
                 new Block(AbstractBlock.Settings.create().strength(2f)
                         .sounds(BlockSoundGroup.BAMBOO_WOOD)));
+
+    public static final Block GRASSY_PUMICE = registerBlock("grassy_pumice",
+            new Block(AbstractBlock.Settings.create().strength(1.5f)
+                    .requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block PUMICE = registerBlock("pumice",
+            new Block(AbstractBlock.Settings.create().strength(1.5f)
+                    .requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block POLISHED_PUMICE = registerBlock("polished_pumice",
+            new Block(AbstractBlock.Settings.create().strength(1.5f)
+                    .requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
 
     public static final Block POLISHED_STONE = registerBlock("polished_stone",
                 new Block(AbstractBlock.Settings.create().strength(1.5f)

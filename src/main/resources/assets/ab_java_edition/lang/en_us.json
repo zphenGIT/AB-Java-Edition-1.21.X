@@ -11,6 +11,9 @@
   "painting.ab_java_edition.core_memory.title": "Core Memory",
   "painting.ab_java_edition.core_memory.author": "Zphen",
 
+  "block.ab_java_edition.grassy_pumice": "Grassy Pumice",
+  "block.ab_java_edition.pumice": "Pumice",
+  "block.ab_java_edition.polished_pumice": "Polished Pumice",
   "block.ab_java_edition.slingshot_planks": "Slingshot Planks",
   "block.ab_java_edition.slingshot_log": "Slingshot Log",
   "block.ab_java_edition.piggy_tnt": "Piggy TNT",

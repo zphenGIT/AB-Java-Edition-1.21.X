@@ -47,6 +47,10 @@ public class ModItemGroups {
                             entries.add(ModBlocks.WHITE_RUBBER_BLOCK);
                             entries.add(ModBlocks.RED_RUBBER_BLOCK);
 
+                            entries.add(ModBlocks.GRASSY_PUMICE);
+                            entries.add(ModBlocks.PUMICE);
+                            entries.add(ModBlocks.POLISHED_PUMICE);
+
                             entries.add(ModBlocks.POLISHED_STONE);
                             entries.add(ModBlocks.POLISHED_STONE_WALL);
                             entries.add(ModBlocks.POLISHED_STONE_STAIR);
